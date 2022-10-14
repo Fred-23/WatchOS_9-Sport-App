@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		C943C4E228F5531B0016D0C3 /* Sport App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C943C4E128F5531B0016D0C3 /* Sport App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C943C4E728F5531B0016D0C3 /* Sport_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C4E628F5531B0016D0C3 /* Sport_AppApp.swift */; };
-		C943C4E928F5531B0016D0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C4E828F5531B0016D0C3 /* ContentView.swift */; };
+		C943C4E928F5531B0016D0C3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C4E828F5531B0016D0C3 /* StartView.swift */; };
 		C943C4EB28F5531C0016D0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C943C4EA28F5531C0016D0C3 /* Assets.xcassets */; };
 		C943C4EE28F5531C0016D0C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C943C4ED28F5531C0016D0C3 /* Preview Assets.xcassets */; };
 		C943C4F828F5531C0016D0C3 /* Sport_App_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C4F728F5531C0016D0C3 /* Sport_App_Watch_AppTests.swift */; };
 		C943C50228F5531C0016D0C3 /* Sport_App_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C50128F5531C0016D0C3 /* Sport_App_Watch_AppUITests.swift */; };
 		C943C50428F5531C0016D0C3 /* Sport_App_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C50328F5531C0016D0C3 /* Sport_App_Watch_AppUITestsLaunchTests.swift */; };
+		C943C51528F554F00016D0C3 /* SessionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C51428F554F00016D0C3 /* SessionPageView.swift */; };
+		C943C51728F5556F0016D0C3 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C51628F5556F0016D0C3 /* MetricsView.swift */; };
+		C943C51928F556E50016D0C3 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C51828F556E50016D0C3 /* ElapsedTimeView.swift */; };
+		C943C51D28F5EFC50016D0C3 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C51C28F5EFC50016D0C3 /* ControlsView.swift */; };
+		C943C51F28F5F0AF0016D0C3 /* SummaryMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C51E28F5F0AF0016D0C3 /* SummaryMetricsView.swift */; };
+		C943C52328F5F2040016D0C3 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943C52228F5F2040016D0C3 /* ActivityRingsView.swift */; };
+		C9A9D67328F5F639004C3B3C /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D67228F5F639004C3B3C /* WorkoutManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +66,7 @@
 		C943C4DB28F5531B0016D0C3 /* Sport App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sport App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C943C4E128F5531B0016D0C3 /* Sport App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sport App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C943C4E628F5531B0016D0C3 /* Sport_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_AppApp.swift; sourceTree = "<group>"; };
-		C943C4E828F5531B0016D0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C943C4E828F5531B0016D0C3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		C943C4EA28F5531C0016D0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C943C4ED28F5531C0016D0C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C943C4F328F5531C0016D0C3 /* Sport App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sport App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +74,14 @@
 		C943C4FD28F5531C0016D0C3 /* Sport App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sport App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C943C50128F5531C0016D0C3 /* Sport_App_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_App_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		C943C50328F5531C0016D0C3 /* Sport_App_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_App_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C943C51428F554F00016D0C3 /* SessionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPageView.swift; sourceTree = "<group>"; };
+		C943C51628F5556F0016D0C3 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		C943C51828F556E50016D0C3 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		C943C51C28F5EFC50016D0C3 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		C943C51E28F5F0AF0016D0C3 /* SummaryMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryMetricsView.swift; sourceTree = "<group>"; };
+		C943C52228F5F2040016D0C3 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		C943C52428F5F3150016D0C3 /* Sport App Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sport App Watch App.entitlements"; sourceTree = "<group>"; };
+		C9A9D67228F5F639004C3B3C /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +133,16 @@
 		C943C4E528F5531B0016D0C3 /* Sport App Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				C943C52428F5F3150016D0C3 /* Sport App Watch App.entitlements */,
 				C943C4E628F5531B0016D0C3 /* Sport_AppApp.swift */,
-				C943C4E828F5531B0016D0C3 /* ContentView.swift */,
+				C943C4E828F5531B0016D0C3 /* StartView.swift */,
+				C943C51E28F5F0AF0016D0C3 /* SummaryMetricsView.swift */,
+				C9A9D67228F5F639004C3B3C /* WorkoutManager.swift */,
+				C943C52228F5F2040016D0C3 /* ActivityRingsView.swift */,
+				C943C51428F554F00016D0C3 /* SessionPageView.swift */,
+				C943C51628F5556F0016D0C3 /* MetricsView.swift */,
+				C943C51C28F5EFC50016D0C3 /* ControlsView.swift */,
+				C943C51828F556E50016D0C3 /* ElapsedTimeView.swift */,
 				C943C4EA28F5531C0016D0C3 /* Assets.xcassets */,
 				C943C4EC28F5531C0016D0C3 /* Preview Content */,
 			);
@@ -309,7 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C943C4E928F5531B0016D0C3 /* ContentView.swift in Sources */,
+				C943C4E928F5531B0016D0C3 /* StartView.swift in Sources */,
+				C943C51F28F5F0AF0016D0C3 /* SummaryMetricsView.swift in Sources */,
+				C9A9D67328F5F639004C3B3C /* WorkoutManager.swift in Sources */,
+				C943C51528F554F00016D0C3 /* SessionPageView.swift in Sources */,
+				C943C51928F556E50016D0C3 /* ElapsedTimeView.swift in Sources */,
+				C943C51728F5556F0016D0C3 /* MetricsView.swift in Sources */,
+				C943C52328F5F2040016D0C3 /* ActivityRingsView.swift in Sources */,
+				C943C51D28F5EFC50016D0C3 /* ControlsView.swift in Sources */,
 				C943C4E728F5531B0016D0C3 /* Sport_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sport App Watch App/Sport App Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sport App Watch App/Preview Content\"";
@@ -495,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sport App Watch App/Sport App Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sport App Watch App/Preview Content\"";
