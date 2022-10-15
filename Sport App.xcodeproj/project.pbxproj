@@ -81,6 +81,7 @@
 		C943C51E28F5F0AF0016D0C3 /* SummaryMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryMetricsView.swift; sourceTree = "<group>"; };
 		C943C52228F5F2040016D0C3 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 		C943C52428F5F3150016D0C3 /* Sport App Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sport App Watch App.entitlements"; sourceTree = "<group>"; };
+		C9640DEF28FAD3710063721C /* Sport-App-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sport-App-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C9A9D67228F5F639004C3B3C /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +134,7 @@
 		C943C4E528F5531B0016D0C3 /* Sport App Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				C9640DEF28FAD3710063721C /* Sport-App-Watch-App-Info.plist */,
 				C943C52428F5F3150016D0C3 /* Sport App Watch App.entitlements */,
 				C943C4E628F5531B0016D0C3 /* Sport_AppApp.swift */,
 				C943C4E828F5531B0016D0C3 /* StartView.swift */,
@@ -502,6 +504,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sport App Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sport-App-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sport App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -532,6 +535,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sport App Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sport-App-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sport App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;

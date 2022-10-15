@@ -15,6 +15,9 @@ struct Sport_App_Watch_AppApp: App {
             NavigationView{
                 StartView()
             }
+            .sheet(isPresented: $workoutManager.showingSummaryView) {
+                SummaryMetricsView()
+            }
             .environmentObject(workoutManager)
         }
         
